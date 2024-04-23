@@ -7,7 +7,7 @@ Return: The Hamming distance dH(s,t).
 """
 import os
 
-dataset = open(os.getcwd()+"/6_Counting_Point_Mutations/rosalind_hamm.txt", "r")
+dataset = open(os.getcwd()+"/HAMM_Counting_Point_Mutations/rosalind_hamm.txt", "r")
 dnas = dataset.readlines()
 dh = 0
 

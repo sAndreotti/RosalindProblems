@@ -11,10 +11,9 @@ Return: Four integers (separated by spaces) counting the respective number of ti
 #include <string>
 
 int main(){
-    std::cout << "Ciao" << std::endl;
     std::string text;
     std::string dna = "";
-    std::ifstream data("../1_Counting_DNA_Nucleotides/rosalind_dna.txt");
+    std::ifstream data("../DNA_Counting_DNA_Nucleotides/rosalind_dna.txt");
 
     while(getline(data, text)){
         dna = dna + text;

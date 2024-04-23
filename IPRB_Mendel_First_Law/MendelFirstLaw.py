@@ -7,7 +7,7 @@ Return: The probability that two randomly selected mating organisms will produce
 """
 import os
 
-with open(os.getcwd()+"/7_Mendel_First_Law/rosalind_iprb.txt", "r") as f:
+with open(os.getcwd()+"/IPRB_Mendel_First_Law/rosalind_iprb.txt", "r") as f:
     # m: heterozygous
     # n: homozygous recessive
     # k: homozygous dominant

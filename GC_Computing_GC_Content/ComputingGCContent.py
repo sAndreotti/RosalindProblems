@@ -2,6 +2,8 @@
 Computing GC Content
 url: http://rosalind.info/problems/gc/
 
+Done without BioSeq
+
 Given: At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
 Return: The ID of the string having the highest GC-content, followed by the GC-content of that string. Rosalind allows for a default error of 0.001 in all decimal answers unless otherwise stated; please see the note on absolute error below.
 """
@@ -9,8 +11,8 @@ import os
 
 dna = []
 sample = ""
-dataset = open(os.getcwd()+"/5_Computing_GC_Content/rosalind_gc.txt", "r")
-trimmered = open(os.getcwd()+"/5_Computing_GC_Content/rosalind.txt", "w")
+dataset = open(os.getcwd()+"/GC_Computing_GC_Content/rosalind_gc.txt", "r")
+trimmered = open(os.getcwd()+"/GC_Computing_GC_Content/rosalind.txt", "w")
 for line in dataset.readlines():
     if line[:1] == ">":
         if sample != "":

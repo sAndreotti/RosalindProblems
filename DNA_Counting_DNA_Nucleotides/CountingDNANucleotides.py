@@ -7,7 +7,7 @@ Return: Four integers (separated by spaces) counting the respective number of ti
 """
 import os
 
-dataset = open(os.getcwd()+"/1_Counting_DNA_Nucleotides/rosalind_dna.txt", "r")
+dataset = open(os.getcwd()+"/DNA_Counting_DNA_Nucleotides/rosalind_dna.txt", "r")
 dna = dataset.readline().strip()
 
 number_a = dna.count("A")

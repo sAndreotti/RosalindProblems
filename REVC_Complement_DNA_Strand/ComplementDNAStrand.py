@@ -7,7 +7,7 @@ Return: The reverse complement sc of s. .
 """
 import os
 
-dataset = open(os.getcwd()+"/4_Complement_DNA_Strand/rosalind_revc.txt", "r")
+dataset = open(os.getcwd()+"/REVC_Complement_DNA_Strand/rosalind_revc.txt", "r")
 dna = dataset.readline().strip()
 
 for i in range(len(dna)):

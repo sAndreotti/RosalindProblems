@@ -13,7 +13,7 @@ def fibonacci(n, k):
     else:
         return fibonacci(n-1, k) + k* fibonacci(n-2, k)
 
-dataset = open(os.getcwd()+"/4_Rabbits_and_Recurrence_relations/rosalind_fib.txt", "r")
+dataset = open(os.getcwd()+"/FIB_Rabbits_and_Recurrence_Relations/rosalind_fib.txt", "r")
 n, k = dataset.readline().strip().split(" ")
 
 print(fibonacci(int(n),int(k)))
