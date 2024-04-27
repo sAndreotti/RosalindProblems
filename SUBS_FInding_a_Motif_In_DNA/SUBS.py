@@ -53,6 +53,6 @@ def processing(pattern, M, phi):
                 phi[i] = 0
                 i += 1
 
-data = open(os.getcwd()+"/SUBS_FInding_a_Motif_In_DNA/rosalind_subs.txt", "r")
+data = open(os.getcwd()+"/SUBS_Finding_a_Motif_In_DNA/rosalind_subs.txt", "r")
 text, pattern = data.readlines()
 searching(text.strip(), pattern.strip())
