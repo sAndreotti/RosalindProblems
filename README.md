@@ -18,7 +18,7 @@ This repository contains solutions to bioinformatics problems sourced from Rosal
 ## How to Use
 
 Each folder contains a solution to the respective problem. Inside each folder, you'll find the source code and link to the problem.
-This is intentionally programmed without using bioinformatics libraries, for example BioPython, for better learning.
+This is intentionally programmed without using bioinformatics libraries (like BioPython) for better learning.
 
 ## Contributing
 
