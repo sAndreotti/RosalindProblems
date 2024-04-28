@@ -22,6 +22,5 @@ print(math.factorial(n))
 
 perm = []
 [perm.append(str(i+1)) for i in range(n)]
-  
-# Function call 
+
 permute(perm, 0, n) 
