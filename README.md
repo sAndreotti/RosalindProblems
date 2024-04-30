@@ -2,9 +2,12 @@
 
 This repository contains solutions to bioinformatics problems sourced from Rosalind (http://rosalind.info/).
 
+Problems list: (https://rosalind.info/problems/tree-view/)\
+My account: (https://rosalind.info/users/sAndreotti/)
+
 ## Solved Problems
 
-- [DNA Counting DNA Nucleotides](DNA_Counting_DNA_Nucleotides/)
+- DNA Counting DNA Nucleotides [[directory](DNA_Counting_DNA_Nucleotides/)]
 - [FIB Rabbits and Recurrence Relations](FIB_Rabbits_and_Recurrence_Relations/)
 - [GC Computing GC Content](GC_Computing_GC_Content/)
 - [HAMM Counting Point Mutations](HAMM_Counting_Point_Mutations/)
